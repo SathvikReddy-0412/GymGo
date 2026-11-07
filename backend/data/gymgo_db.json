@@ -1,0 +1,2184 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "username": "athlete",
+      "name": "Alex Turner",
+      "email": "alex@gymgo.fit",
+      "role": "athlete",
+      "streak": 47,
+      "matchPct": 96,
+      "avatar": "A",
+      "homeCity": "Vijayawada",
+      "prs": {
+        "bench": "105 kg",
+        "squat": "145 kg",
+        "deadlift": "185 kg"
+      },
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "password": "123456"
+    },
+    {
+      "id": "usr_owner",
+      "username": "owner",
+      "name": "Vikram Rao (Starts Gym)",
+      "email": "owner@startsgym.com",
+      "role": "owner",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "avatar": "V",
+      "createdAt": "2026-01-01T10:00:00.000Z",
+      "password": "123456"
+    },
+    {
+      "id": "usr_1792511247069",
+      "username": "jordan_fit",
+      "name": "Jordan Hayes",
+      "email": "jordan@example.com",
+      "password": "newPassword456!",
+      "role": "athlete",
+      "avatar": "J",
+      "homeCity": "Hyderabad",
+      "createdAt": "2026-10-20T15:47:27.069Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1792511307214",
+      "username": "sam_owner",
+      "name": "Samantha Reed",
+      "email": "sam@titanfitness.com",
+      "password": "ownerPass123!",
+      "role": "owner",
+      "avatar": "S",
+      "homeCity": "Bengaluru",
+      "createdAt": "2026-10-20T15:48:27.214Z",
+      "gymName": "Titan Strength Club",
+      "city": "Bengaluru",
+      "area": "Indiranagar"
+    },
+    {
+      "id": "usr_1792511653751",
+      "username": "sathvikureddy@gmail.com",
+      "name": "Sathvik Reddy Surasani",
+      "email": "sathvikureddy@gmail.com",
+      "password": "123456",
+      "role": "athlete",
+      "avatar": "S",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-10-20T15:54:13.751Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_admin",
+      "username": "admin",
+      "name": "Master Admin",
+      "email": "admin@gymgo.fit",
+      "password": "123456",
+      "role": "admin",
+      "avatar": "M",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_1794072450891",
+      "username": "athlete_1794072450890",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072450890@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:27:30.891Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072539151",
+      "username": "athlete_1794072539148",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072539148@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:28:59.151Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072747656",
+      "username": "athlete_1794072747654",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072747654@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:32:27.656Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072870730",
+      "username": "athlete_1794072870728",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072870728@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:34:30.730Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072912726",
+      "username": "athlete_1794072912723",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072912723@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:35:12.726Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072930686",
+      "username": "athlete_1794072930683",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072930683@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:35:30.686Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794072957408",
+      "username": "athlete_1794072957405",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794072957405@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:35:57.408Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794073000364",
+      "username": "athlete_1794073000362",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794073000362@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:36:40.364Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    },
+    {
+      "id": "usr_1794073065281",
+      "username": "athlete_1794073065278",
+      "name": "Rohan Sharma",
+      "email": "athlete_1794073065278@example.com",
+      "password": "SecurePassword123!",
+      "role": "athlete",
+      "avatar": "R",
+      "homeCity": "Vijayawada",
+      "createdAt": "2026-11-07T17:37:45.281Z",
+      "streak": 1,
+      "matchPct": 95,
+      "prs": {
+        "bench": "60 kg",
+        "squat": "80 kg",
+        "deadlift": "100 kg"
+      }
+    }
+  ],
+  "cities": {
+    "Vijayawada": [
+      "Tadepalli",
+      "Benz Circle",
+      "Labbipet",
+      "Governorpet",
+      "Patamata",
+      "Auto Nagar",
+      "Gunadala"
+    ],
+    "Guntur": [
+      "Brodipet",
+      "Arundelpet",
+      "Lakshmipuram",
+      "Pattabhipuram"
+    ],
+    "Visakhapatnam": [
+      "MVP Colony",
+      "Dwaraka Nagar",
+      "Gajuwaka",
+      "Madhurawada"
+    ],
+    "Hyderabad": [
+      "Madhapur",
+      "Gachibowli",
+      "Kondapur",
+      "Jubilee Hills",
+      "Banjara Hills"
+    ],
+    "Bengaluru": [
+      "Koramangala",
+      "Indiranagar",
+      "HSR Layout",
+      "Whitefield"
+    ],
+    "Chennai": [
+      "T Nagar",
+      "Adyar",
+      "Velachery",
+      "Anna Nagar"
+    ],
+    "Mumbai": [
+      "Andheri",
+      "Bandra",
+      "Powai",
+      "Thane"
+    ],
+    "Delhi": [
+      "Saket",
+      "Dwarka",
+      "Rohini",
+      "Connaught Place"
+    ]
+  },
+  "gyms": [
+    {
+      "id": "gym_1",
+      "name": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "rating": 4.8,
+      "reviews": 248,
+      "distance": 0.6,
+      "dayPrice": 150,
+      "tags": [
+        "Free weights",
+        "Squat rack",
+        "AC",
+        "Trainers",
+        "Crossfit zone"
+      ],
+      "address": "Near NH16 Bypass, Tadepalli, Vijayawada",
+      "openHours": "5:00 AM - 10:30 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "9–11 AM",
+        "5–7 PM",
+        "7–9 PM",
+        "9–11 PM"
+      ],
+      "verified": true
+    },
+    {
+      "id": "gym_2",
+      "name": "Derive Fitness",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "rating": 5,
+      "reviews": 312,
+      "distance": 1.2,
+      "dayPrice": 150,
+      "tags": [
+        "AC",
+        "Cardio",
+        "Showers",
+        "Lockers",
+        "Steam room"
+      ],
+      "address": "Main Road, Tadepalli, Vijayawada",
+      "openHours": "5:30 AM - 10:00 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_3",
+      "name": "Multifit",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "rating": 5,
+      "reviews": 190,
+      "distance": 1.8,
+      "dayPrice": 150,
+      "tags": [
+        "Calisthenics",
+        "Crossfit",
+        "Functional training",
+        "AC"
+      ],
+      "address": "Opp. Police Station, Tadepalli",
+      "openHours": "6:00 AM - 10:00 PM",
+      "slots": [
+        "6–8 AM",
+        "8–10 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_4",
+      "name": "Iron Nation",
+      "city": "Vijayawada",
+      "area": "Benz Circle",
+      "rating": 4.7,
+      "reviews": 420,
+      "distance": 2.1,
+      "dayPrice": 120,
+      "tags": [
+        "Olympic barbells",
+        "Heavy dumbbells up to 60kg",
+        "Deadlift platform"
+      ],
+      "address": "MG Road, Benz Circle, Vijayawada",
+      "openHours": "5:00 AM - 11:00 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_5",
+      "name": "Cult.Fit Elite",
+      "city": "Hyderabad",
+      "area": "Madhapur",
+      "rating": 4.9,
+      "reviews": 840,
+      "distance": 0.8,
+      "dayPrice": 180,
+      "tags": [
+        "Strength & Conditioning",
+        "Boxing ring",
+        "Steam bath",
+        "Juice Bar"
+      ],
+      "address": "Hitech City Road, Madhapur, Hyderabad",
+      "openHours": "5:30 AM - 11:00 PM",
+      "slots": [
+        "6–8 AM",
+        "8–10 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_6",
+      "name": "Gold's Gym",
+      "city": "Hyderabad",
+      "area": "Gachibowli",
+      "rating": 4.8,
+      "reviews": 650,
+      "distance": 1.4,
+      "dayPrice": 180,
+      "tags": [
+        "Certified Trainers",
+        "Cardio cinema",
+        "Spinning studio",
+        "Sauna"
+      ],
+      "address": "Financial District, Gachibowli, Hyderabad",
+      "openHours": "5:00 AM - 11:00 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_7",
+      "name": "Beast Mode Gym",
+      "city": "Guntur",
+      "area": "Brodipet",
+      "rating": 4.6,
+      "reviews": 154,
+      "distance": 0.9,
+      "dayPrice": 100,
+      "tags": [
+        "Heavy Lifting",
+        "Powerlifting Racks",
+        "AC",
+        "Chalk allowed"
+      ],
+      "address": "4th Line, Brodipet, Guntur",
+      "openHours": "5:00 AM - 10:00 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_8",
+      "name": "Nitro Fitness Club",
+      "city": "Bengaluru",
+      "area": "Indiranagar",
+      "rating": 4.9,
+      "reviews": 920,
+      "distance": 1.1,
+      "dayPrice": 200,
+      "tags": [
+        "State-of-the-art machines",
+        "Recovery lounge",
+        "Smoothie bar"
+      ],
+      "address": "100ft Road, Indiranagar, Bengaluru",
+      "openHours": "5:00 AM - 11:30 PM",
+      "slots": [
+        "6–8 AM",
+        "8–10 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ]
+    },
+    {
+      "id": "gym_1792511307214",
+      "name": "Titan Strength Club",
+      "city": "Bengaluru",
+      "area": "Indiranagar",
+      "rating": 5,
+      "reviews": 1,
+      "distance": 0.8,
+      "dayPrice": 199,
+      "tags": [
+        "Equipment",
+        "Free weights",
+        "Air Conditioned",
+        "Cardio"
+      ],
+      "address": "Indiranagar, Bengaluru",
+      "openHours": "5:00 AM - 10:00 PM",
+      "slots": [
+        "5–7 AM",
+        "7–9 AM",
+        "9–11 AM",
+        "5–7 PM",
+        "7–9 PM",
+        "9–11 PM"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "GG-93004",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:37:45.345Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:37:45.348Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy05MzAwNCIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNjY1LCJpYXQiOjE3OTQwNzMwNjV9.qlXjtfmUOXTE8VrZqenh021CVGFDJlXmVbW-wxL5pNY",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:37:45.352Z"
+    },
+    {
+      "id": "GG-44153",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:37:45.291Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:37:45.295Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy00NDE1MyIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5NDY1LCJpYXQiOjE3OTQwNzMwNjV9.3pDjKAdPg7zVM8EqJ_tMvITwSDrM8-L5o7FX2_YiDdU",
+      "lastCheckIn": "2026-11-07T17:37:45.308Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-22185",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:36:40.417Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:36:40.421Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0yMjE4NSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNjAwLCJpYXQiOjE3OTQwNzMwMDB9.kW0m8OqybUC1PZ1ume3znuSGEkWJZM4dh-RM4aCLtNI",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:36:40.424Z"
+    },
+    {
+      "id": "GG-26551",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:36:40.372Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:36:40.376Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0yNjU1MSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5NDAwLCJpYXQiOjE3OTQwNzMwMDB9.zJzVlEZpgi_nFaxMRslWzIv6T5k1BjDwKHjeKqF4mPs",
+      "lastCheckIn": "2026-11-07T17:36:40.385Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-66871",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:57.462Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:35:57.467Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy02Njg3MSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNTU3LCJpYXQiOjE3OTQwNzI5NTd9.j-Q4V9UIE2dva6sLid1s-y9dZ45uxS-LbMMrCYTSnnA",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:35:57.473Z"
+    },
+    {
+      "id": "GG-12529",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:57.416Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:35:57.420Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0xMjUyOSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5MzU3LCJpYXQiOjE3OTQwNzI5NTd9.256QbeNyPkQJYmt2-BQkcSurvcz-BMiJOzx0z686gjE",
+      "lastCheckIn": "2026-11-07T17:35:57.430Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-50885",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:30.732Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:35:30.735Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy01MDg4NSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNTMwLCJpYXQiOjE3OTQwNzI5MzB9.K_-bHyQu3jbO9vopl50h3pcGD_9tJw5uEQjZOi1F8Is",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:35:30.738Z"
+    },
+    {
+      "id": "GG-40349",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:30.693Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:35:30.696Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy00MDM0OSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5MzMwLCJpYXQiOjE3OTQwNzI5MzB9.CbypCeZ7Li0k529XQsVtqUC6klMyjKHftpj5MCuGlmo",
+      "lastCheckIn": "2026-11-07T17:35:30.705Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-86981",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:12.784Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:35:12.787Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy04Njk4MSIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNTEyLCJpYXQiOjE3OTQwNzI5MTJ9.C4SCWmdRFD6_3mqYU_1Y0Z9KXJQGfuDmNl8rdTWnTUk",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:35:12.790Z"
+    },
+    {
+      "id": "GG-82146",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:35:12.741Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:35:12.746Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy04MjE0NiIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5MzEyLCJpYXQiOjE3OTQwNzI5MTJ9.kFZmcHBZ36iAa4PHkfR8fr3Sf9lEtL9WxONF_UPP_Zc",
+      "lastCheckIn": "2026-11-07T17:35:12.757Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-37820",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:34:47.440Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:34:47.447Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0zNzgyMCIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5Mjg3LCJpYXQiOjE3OTQwNzI4ODd9.xX6nbr2mt-PqQGEL72WYVOjGf1JQKMh8oXc26BT6LQ8",
+      "lastCheckIn": "2026-11-07T17:34:47.469Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-28453",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Evening 17:00 - 20:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "cancelled",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:34:30.796Z",
+      "paymentMethod": "Card",
+      "paidAt": "2026-11-07T17:34:30.799Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0yODQ1MyIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiRXZlbmluZyAxNzowMCAtIDIwOjAwIiwiZXhwIjoxNzk0MjAyNDcwLCJpYXQiOjE3OTQwNzI4NzB9.O9uRhAkUMVpuweph736puk3vtMhSGdgj2Bj4_cmGv3Q",
+      "cancelReason": "Travel plans shifted to next week",
+      "cancelledAt": "2026-11-07T17:34:30.803Z"
+    },
+    {
+      "id": "GG-63703",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:34:30.746Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:34:30.751Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy02MzcwMyIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5MjcwLCJpYXQiOjE3OTQwNzI4NzB9.FmCJ760W5leMlJnqj0b9KpFZofms-9WIUqDm01EZxA4",
+      "lastCheckIn": "2026-11-07T17:34:30.764Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-51936",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:32:27.665Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:32:27.671Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy01MTkzNiIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU5MTQ3LCJpYXQiOjE3OTQwNzI3NDd9.dzvx1qssM4BdstAzoeeRZpf0na2zezq7_G4zqm7LhKA",
+      "lastCheckIn": "2026-11-07T17:32:27.688Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-86476",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "paid",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T17:29:34.810Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:29:34.819Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy04NjQ3NiIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU4OTc0LCJpYXQiOjE3OTQwNzI1NzR9.y4AxPShhdaFpAETurYhFSOyROgszejDi7oO_oL3T6kU"
+    },
+    {
+      "id": "GG-58668",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 30,
+      "amount": 120,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": "GYMGO20",
+      "createdAt": "2026-11-07T17:28:59.162Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:28:59.167Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy01ODY2OCIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU4OTM5LCJpYXQiOjE3OTQwNzI1Mzl9.h_NxI5SM7Cm4w5D6U2vMNDHFuVq5rkV9pYCShkFhXSU",
+      "lastCheckIn": "2026-11-07T17:28:59.179Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-28818",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "Morning 06:00 - 09:00",
+      "baseAmount": 150,
+      "discount": 30,
+      "amount": 120,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": "GYMGO20",
+      "createdAt": "2026-11-07T17:27:30.900Z",
+      "paymentMethod": "UPI",
+      "paidAt": "2026-11-07T17:27:30.905Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0yODgxOCIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiTW9ybmluZyAwNjowMCAtIDA5OjAwIiwiZXhwIjoxNzk0MTU4ODUwLCJpYXQiOjE3OTQwNzI0NTB9.0TT2hVr8IH1R1UijyxtHHbOhCAAnEaM0r_h3G6PQqp0",
+      "lastCheckIn": "2026-11-07T17:27:30.914Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-24310",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Day Pass",
+      "daysCount": 1,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "slot": "5–7 AM",
+      "baseAmount": 150,
+      "discount": 0,
+      "amount": 150,
+      "status": "checked_in",
+      "paymentStatus": "PAID",
+      "checkInStatus": "NOT_CHECKED_IN",
+      "promoCode": null,
+      "createdAt": "2026-11-07T16:57:17.920Z",
+      "paymentMethod": "UPI (Razorpay Mock/Sandbox)",
+      "paidAt": "2026-11-07T16:57:17.929Z",
+      "qrCodeData": "GYMGO.V1.eyJ2IjoxLCJiaWQiOiJHRy0yNDMxMCIsImdpZCI6Imd5bV8xIiwidWlkIjoidXNyXzEiLCJzbG90IjoiNeKAkzcgQU0iLCJleHAiOjE3OTQyMDAyMzcsImlhdCI6MTc5NDA3MDYzN30.EPeu3wMJgdzQlySxYEpLX84cuPubtawk7CELNhgWSsQ",
+      "lastCheckIn": "2026-11-07T16:57:17.938Z",
+      "checkInCount": 1
+    },
+    {
+      "id": "GG-85662",
+      "userId": "usr_1792511653751",
+      "userName": "Sathvik Reddy Surasani",
+      "gymId": "gym_5",
+      "gymName": "Cult.Fit Elite",
+      "city": "Hyderabad",
+      "area": "Madhapur",
+      "planName": "1 Week",
+      "daysCount": 7,
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "slot": "5–7 PM",
+      "amount": 900,
+      "status": "paid",
+      "availableSlots": [
+        "9–11 AM",
+        "5–7 PM",
+        "7–9 PM"
+      ],
+      "slotsToggle": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-20T15:54:34.301Z",
+      "qrCodeData": "GYMGO:GG-85662:usr_1792511653751:gym_5:2026-10-25",
+      "checkedInAt": "2026-10-20T15:56:18.762Z"
+    },
+    {
+      "id": "GG-96165",
+      "userId": "usr_1",
+      "userName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Week",
+      "daysCount": 7,
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-24",
+      "slot": "5–7 PM",
+      "amount": 750,
+      "status": "paid",
+      "availableSlots": [],
+      "slotsToggle": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-18T17:57:16.217Z",
+      "qrCodeData": "GYMGO:GG-96165:usr_1:gym_1:2026-10-24"
+    },
+    {
+      "id": "GG-84291",
+      "userId": "usr_1",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "planName": "1 Week",
+      "daysCount": 7,
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-24",
+      "slot": "5–7 PM",
+      "amount": 750,
+      "status": "paid",
+      "qrCodeData": "GYMGO:GG-84291:usr_1:gym_1:20261024",
+      "userName": "Alex Turner",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-18T10:30:00.000Z"
+    }
+  ],
+  "passportStamps": [
+    {
+      "id": "stamp_1794070637939",
+      "userId": "usr_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "visitedDate": "2026-11-07",
+      "badgeEarned": "Vijayawada Verified Check-In",
+      "verified": true
+    },
+    {
+      "id": "stamp_1",
+      "userId": "usr_1",
+      "gymName": "Starts Gym",
+      "city": "Vijayawada",
+      "area": "Tadepalli",
+      "visitedDate": "2026-10-18",
+      "badgeEarned": "First Sweat",
+      "verified": true
+    },
+    {
+      "id": "stamp_2",
+      "userId": "usr_1",
+      "gymName": "Cult.Fit Elite",
+      "city": "Hyderabad",
+      "area": "Madhapur",
+      "visitedDate": "2026-09-24",
+      "badgeEarned": "Cyber City Lifter",
+      "verified": true
+    },
+    {
+      "id": "stamp_3",
+      "userId": "usr_1",
+      "gymName": "Nitro Fitness",
+      "city": "Bengaluru",
+      "area": "Indiranagar",
+      "visitedDate": "2026-08-14",
+      "badgeEarned": "Silicon Valley Pump",
+      "verified": true
+    }
+  ],
+  "gymgramPosts": [
+    {
+      "id": "post_1",
+      "userId": "usr_1",
+      "authorName": "Alex Turner",
+      "authorAvatar": "A",
+      "location": "Starts Gym · Tadepalli, Vijayawada",
+      "caption": "Hit a smooth 105 kg bench press on travel pass! The equipment here at Starts Gym is top-notch. 🔥 Never skip chest day, even when travelling.",
+      "tag": "PR Alert 🏆",
+      "likes": 28,
+      "likedBy": [
+        "usr_owner"
+      ],
+      "comments": [
+        {
+          "id": "c_1",
+          "author": "Vikram Rao",
+          "text": "Great form today Alex! Keep smashing it at Starts Gym."
+        }
+      ],
+      "timeAgo": "2 hours ago",
+      "workoutType": "Chest & Triceps"
+    },
+    {
+      "id": "post_2",
+      "userId": "usr_2",
+      "authorName": "Sarah Jenkins",
+      "authorAvatar": "S",
+      "location": "Cult.Fit Elite · Madhapur, Hyderabad",
+      "caption": "Morning HIIT session wrapped before client meetings. GymGo made dropping into Hyderabad gym so seamless! ⚡",
+      "tag": "Morning Grind ⚡",
+      "likes": 45,
+      "likedBy": [
+        "usr_1"
+      ],
+      "comments": [
+        {
+          "id": "c_2",
+          "author": "Alex Turner",
+          "text": "Cult Madhapur is legendary!"
+        }
+      ],
+      "timeAgo": "5 hours ago",
+      "workoutType": "HIIT & Mobility"
+    },
+    {
+      "id": "post_3",
+      "userId": "usr_3",
+      "authorName": "Rahul Varma",
+      "authorAvatar": "R",
+      "location": "Iron Nation · Benz Circle, Vijayawada",
+      "caption": "4-plate deadlift session in the books. 180kg felt light today. Consistency beats motivation every single time.",
+      "tag": "Deadlift Club 🏋️",
+      "likes": 62,
+      "likedBy": [
+        "usr_1"
+      ],
+      "comments": [],
+      "timeAgo": "1 day ago",
+      "workoutType": "Back & Deadlifts"
+    }
+  ],
+  "coachAssessments": {
+    "usr_1": {
+      "age": 26,
+      "h": 178,
+      "w": 74,
+      "goal": "muscle",
+      "ap": "bb",
+      "diet": "non",
+      "med": [
+        "None"
+      ],
+      "updatedAt": "2026-10-18T17:59:20.183Z"
+    }
+  },
+  "workoutLogs": {
+    "usr_1": [
+      {
+        "t": 1760810400000,
+        "d": "Moderate · Upper A",
+        "x": "DB Press: 32kg x 10, 10, 8\nDB Row: 34kg x 10, 10, 10\nArnold Press: 18kg x 10, 10\nFelt great pump in Tadepalli."
+      },
+      {
+        "t": 1792346360197,
+        "d": "Push Day",
+        "x": "Bench Press 105kg x 5"
+      }
+    ]
+  },
+  "workoutEdits": {},
+  "workoutDone": {},
+  "customExercises": [],
+  "settlements": [
+    {
+      "id": "set_101",
+      "gymId": "gym_1",
+      "ownerId": "usr_owner",
+      "period": "Oct 2026",
+      "grossAmount": 3200,
+      "commissionAmount": 480,
+      "netPayout": 2720,
+      "status": "SETTLED",
+      "paidAt": "2026-10-31T18:00:00.000Z",
+      "reference": "UPI/AXIS/99812471"
+    }
+  ],
+  "refunds": [
+    {
+      "id": "ref_1794073065352",
+      "bookingId": "GG-93004",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:37:45.352Z"
+    },
+    {
+      "id": "ref_1794073000424",
+      "bookingId": "GG-22185",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:36:40.424Z"
+    },
+    {
+      "id": "ref_1794072957473",
+      "bookingId": "GG-66871",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:35:57.473Z"
+    },
+    {
+      "id": "ref_1794072930738",
+      "bookingId": "GG-50885",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:35:30.738Z"
+    },
+    {
+      "id": "ref_1794072912790",
+      "bookingId": "GG-86981",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:35:12.790Z"
+    },
+    {
+      "id": "ref_1794072870803",
+      "bookingId": "GG-28453",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plans shifted to next week",
+      "status": "PENDING",
+      "createdAt": "2026-11-07T17:34:30.803Z"
+    },
+    {
+      "id": "ref_1",
+      "bookingId": "GG-84291",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "amount": 150,
+      "reason": "Travel plan cancelled due to flight reschedule",
+      "status": "RESOLVED",
+      "createdAt": "2026-10-22T08:00:00.000Z",
+      "adminNote": "Verified and credited via original payment method"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "tkt_101",
+      "reporterId": "usr_1",
+      "reporterName": "Alex Turner",
+      "reporterRole": "athlete",
+      "category": "facility_cleanliness",
+      "description": "Locker room showers water pressure was low during morning slot.",
+      "status": "RESOLVED",
+      "priority": "MEDIUM",
+      "resolution": "Owner inspected and repaired pressure valve on 24th Oct.",
+      "createdAt": "2026-10-23T11:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1794073065332_542",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to true",
+      "timestamp": "2026-11-07T17:37:45.332Z"
+    },
+    {
+      "id": "aud_1794073000403_737",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to false",
+      "timestamp": "2026-11-07T17:36:40.403Z"
+    },
+    {
+      "id": "aud_1794072957446_342",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to true",
+      "timestamp": "2026-11-07T17:35:57.446Z"
+    },
+    {
+      "id": "aud_1794072930724_115",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to false",
+      "timestamp": "2026-11-07T17:35:30.724Z"
+    },
+    {
+      "id": "aud_1794072912775_426",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to true",
+      "timestamp": "2026-11-07T17:35:12.775Z"
+    },
+    {
+      "id": "aud_1794072870783_729",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to false",
+      "timestamp": "2026-11-07T17:34:30.783Z"
+    },
+    {
+      "id": "aud_1794072747704_6",
+      "adminId": "usr_admin",
+      "action": "GYM_VERIFICATION",
+      "targetType": "GYM",
+      "targetId": "gym_1",
+      "details": "Verification status set to true",
+      "timestamp": "2026-11-07T17:32:27.704Z"
+    },
+    {
+      "id": "aud_1",
+      "adminId": "usr_admin",
+      "adminName": "Master Admin",
+      "action": "SYSTEM_INITIALIZATION",
+      "targetType": "PLATFORM",
+      "targetId": "gymgo_hq",
+      "details": "GymGo 2.0 Unified Cross-City Platform Activated",
+      "timestamp": "2026-10-01T00:00:00.000Z"
+    }
+  ],
+  "promotions": [
+    {
+      "code": "PROMO250",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "PROMO157",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "PROMO631",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "PROMO923",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "PROMO657",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "PROMO713",
+      "discountPct": 25,
+      "maxDiscount": 400,
+      "city": "ALL",
+      "description": "Promotional pass discount",
+      "validUntil": "2026-12-31",
+      "usageCount": 0,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "GYMGO20",
+      "discountPct": 20,
+      "maxDiscount": 100,
+      "city": "ALL",
+      "description": "20% off all cross-city travel day passes",
+      "validUntil": "2026-12-31",
+      "usageCount": 16,
+      "maxUsage": 500,
+      "active": true
+    },
+    {
+      "code": "VIJAYAWADA50",
+      "discountPct": 50,
+      "maxDiscount": 150,
+      "city": "Vijayawada",
+      "description": "Flat 50% discount on Tadepalli & Benz Circle passes",
+      "validUntil": "2026-12-31",
+      "usageCount": 8,
+      "maxUsage": 200,
+      "active": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1794073065350",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:37:45.350Z"
+    },
+    {
+      "id": "notif_1794073065346",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:37:45.346Z"
+    },
+    {
+      "id": "notif_1794073065311",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:37:45.311Z"
+    },
+    {
+      "id": "notif_1794073065298",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:37:45.298Z"
+    },
+    {
+      "id": "notif_1794073065293",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:37:45.293Z"
+    },
+    {
+      "id": "notif_1794073000422",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:36:40.422Z"
+    },
+    {
+      "id": "notif_1794073000418",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:36:40.418Z"
+    },
+    {
+      "id": "notif_1794073000386",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:36:40.386Z"
+    },
+    {
+      "id": "notif_1794073000378",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:36:40.378Z"
+    },
+    {
+      "id": "notif_1794073000373",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:36:40.373Z"
+    },
+    {
+      "id": "notif_1794072957470",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:57.470Z"
+    },
+    {
+      "id": "notif_1794072957464",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:57.464Z"
+    },
+    {
+      "id": "notif_1794072957431",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:57.431Z"
+    },
+    {
+      "id": "notif_1794072957423",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:57.423Z"
+    },
+    {
+      "id": "notif_1794072957418",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:57.418Z"
+    },
+    {
+      "id": "notif_1794072930736",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:30.736Z"
+    },
+    {
+      "id": "notif_1794072930734",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:30.734Z"
+    },
+    {
+      "id": "notif_1794072930706",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:30.706Z"
+    },
+    {
+      "id": "notif_1794072930699",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:30.699Z"
+    },
+    {
+      "id": "notif_1794072930694",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:30.694Z"
+    },
+    {
+      "id": "notif_1794072912788",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:12.788Z"
+    },
+    {
+      "id": "notif_1794072912785",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:12.785Z"
+    },
+    {
+      "id": "notif_1794072912759",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:12.759Z"
+    },
+    {
+      "id": "notif_1794072912749",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:12.749Z"
+    },
+    {
+      "id": "notif_1794072912743",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:35:12.743Z"
+    },
+    {
+      "id": "notif_1794072887477",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:47.477Z"
+    },
+    {
+      "id": "notif_1794072887449",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:47.449Z"
+    },
+    {
+      "id": "notif_1794072887441",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:47.441Z"
+    },
+    {
+      "id": "notif_1794072870801",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:30.801Z"
+    },
+    {
+      "id": "notif_1794072870797",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:30.797Z"
+    },
+    {
+      "id": "notif_1794072870765",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:30.765Z"
+    },
+    {
+      "id": "notif_1794072870754",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:30.754Z"
+    },
+    {
+      "id": "notif_1794072870748",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:34:30.748Z"
+    },
+    {
+      "id": "notif_1794072747689",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:32:27.689Z"
+    },
+    {
+      "id": "notif_1794072747674",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:32:27.674Z"
+    },
+    {
+      "id": "notif_1794072747666",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:32:27.666Z"
+    },
+    {
+      "id": "notif_1794072574821",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:29:34.821Z"
+    },
+    {
+      "id": "notif_1794072574813",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:29:34.813Z"
+    },
+    {
+      "id": "notif_1794072539180",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:28:59.180Z"
+    },
+    {
+      "id": "notif_1794072539169",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹120 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:28:59.169Z"
+    },
+    {
+      "id": "notif_1794072539164",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:28:59.164Z"
+    },
+    {
+      "id": "notif_1794072450916",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (Morning 06:00 - 09:00). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T17:27:30.916Z"
+    },
+    {
+      "id": "notif_1794072450907",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹120 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T17:27:30.907Z"
+    },
+    {
+      "id": "notif_1794072450902",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T17:27:30.902Z"
+    },
+    {
+      "id": "notif_1794070637940",
+      "userId": "usr_1",
+      "title": "Check-In Verified! 🏋️‍♂️",
+      "message": "Entry verified at Starts Gym (5–7 AM). Have a phenomenal workout!",
+      "type": "check_in",
+      "read": false,
+      "createdAt": "2026-11-07T16:57:17.940Z"
+    },
+    {
+      "id": "notif_1794070637932",
+      "userId": "usr_1",
+      "title": "Payment Confirmed! 🎟️",
+      "message": "Payment of ₹150 confirmed for Starts Gym. Your digital turnstile pass is ready in your wallet.",
+      "type": "payment_success",
+      "read": false,
+      "createdAt": "2026-11-07T16:57:17.932Z"
+    },
+    {
+      "id": "notif_1794070637922",
+      "userId": "usr_owner",
+      "title": "New Traveler Pass Request",
+      "message": "Alex Turner requested a 1 Day Pass at Starts Gym.",
+      "type": "booking_request",
+      "read": false,
+      "createdAt": "2026-11-07T16:57:17.922Z"
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_1",
+      "title": "Pass Ready",
+      "message": "Your Starts Gym Tadepalli pass QR is active for turnstile check-in.",
+      "type": "pass",
+      "read": false,
+      "createdAt": "2026-10-18T10:35:00.000Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_owner",
+      "title": "New Booking",
+      "message": "Alex Turner requested a 1 Week pass for Starts Gym Tadepalli.",
+      "type": "booking",
+      "read": true,
+      "createdAt": "2026-10-18T10:30:00.000Z"
+    }
+  ],
+  "visitorRegister": [
+    {
+      "id": "vis_1794073065306",
+      "bookingId": "GG-44153",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:37:45.306Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794073000384",
+      "bookingId": "GG-26551",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:36:40.384Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072957429",
+      "bookingId": "GG-12529",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:35:57.429Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072930704",
+      "bookingId": "GG-40349",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:35:30.704Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072912756",
+      "bookingId": "GG-82146",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:35:12.756Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072887466",
+      "bookingId": "GG-37820",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:34:47.466Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072870762",
+      "bookingId": "GG-63703",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:34:30.762Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072747687",
+      "bookingId": "GG-51936",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:32:27.687Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072539178",
+      "bookingId": "GG-58668",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:28:59.178Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794072450913",
+      "bookingId": "GG-28818",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T17:27:30.913Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "Morning 06:00 - 09:00",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_1794070637936",
+      "bookingId": "GG-24310",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-11-07T16:57:17.936Z",
+      "verifiedBy": "Turnstile QR Scanner",
+      "passType": "1 Day Pass",
+      "slot": "5–7 AM",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vis_101",
+      "bookingId": "GG-84291",
+      "athleteId": "usr_1",
+      "athleteName": "Alex Turner",
+      "gymId": "gym_1",
+      "gymName": "Starts Gym",
+      "checkInTime": "2026-10-18T17:15:00.000Z",
+      "verifiedBy": "Reception / Turnstile Scanner",
+      "passType": "1 Week Pass",
+      "status": "VERIFIED"
+    }
+  ],
+  "staffAccounts": [
+    {
+      "id": "stf_1",
+      "gymId": "gym_1",
+      "username": "reception_starts",
+      "name": "Starts Gym Desk Staff",
+      "password": "password123",
+      "role": "staff",
+      "permissions": [
+        "qr_scan",
+        "visitor_view"
+      ]
+    }
+  ],
+  "gymSchedules": {
+    "gym_1": {
+      "gymId": "gym_1",
+      "currentOccupancy": 18,
+      "maxCapacity": 60,
+      "isClosed": false,
+      "closureReason": "",
+      "slots": [
+        {
+          "time": "5–7 AM",
+          "maxCapacity": 25,
+          "bookedCapacity": 12,
+          "open": true
+        },
+        {
+          "time": "7–9 AM",
+          "maxCapacity": 30,
+          "bookedCapacity": 18,
+          "open": true
+        },
+        {
+          "time": "9–11 AM",
+          "maxCapacity": 20,
+          "bookedCapacity": 5,
+          "open": true
+        },
+        {
+          "time": "5–7 PM",
+          "maxCapacity": 35,
+          "bookedCapacity": 22,
+          "open": true
+        },
+        {
+          "time": "7–9 PM",
+          "maxCapacity": 35,
+          "bookedCapacity": 28,
+          "open": true
+        },
+        {
+          "time": "9–11 PM",
+          "maxCapacity": 20,
+          "bookedCapacity": 4,
+          "open": true
+        }
+      ],
+      "updatedAt": "2026-11-07T17:37:45.316Z"
+    }
+  },
+  "announcement": {
+    "id": "ann_1794069361396",
+    "title": "System Announcement",
+    "message": "Flash Alert: GymGo 2.0 Full Stack Active!",
+    "type": "info",
+    "createdAt": "2026-11-07T16:36:01.396Z"
+  }
+}

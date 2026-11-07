@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="GymGo - Travel gym passes in any city, personalized AI fitness & nutrition coach, interactive workout sessions, digital gym passport and community feed.">
+  <title>GymGo – Your Gym. Anywhere.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Quick Control Tools -->
+  <div class="tools">
+    <button class="replay" id="replay">↻ Replay Intro</button>
+    <button class="replay" id="quick-auth-btn">🔑 Auth Card</button>
+    <button class="replay" id="skip">Home ▸</button>
+  </div>
+
+  <!-- Intro & Login Scene -->
+  <div id="app">
+    <div class="bg" aria-hidden="true">
+      <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+        <g class="float" transform="translate(70,90) rotate(-18)">
+          <g class="eq a">
+            <circle cx="0" cy="0" r="46"/><circle cx="0" cy="0" r="14"/>
+            <circle cx="230" cy="0" r="46"/><circle cx="230" cy="0" r="14"/>
+            <path d="M46 0H184M60 -14V14M170 -14V14"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(880,70) rotate(14)">
+          <g class="eq">
+            <path d="M-30 -10a40 40 0 1 1 60 0M-60 20a60 60 0 1 0 120 0 60 60 0 0 0-120 0zM-34 -40a50 50 0 0 1 68 0"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(150,520) rotate(8)">
+          <g class="eq">
+            <path d="M-30 -10a42 42 0 1 1 60 0"/>
+            <path d="M-70 40a70 70 0 1 1 140 0 20 20 0 0 1-20 20h-100a20 20 0 0 1-20-20z"/>
+            <path d="M-26 -10h52"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(760,560) rotate(-8)">
+          <g class="eq a">
+            <circle r="70"/><circle r="26"/><circle r="52" stroke-dasharray="6 10"/>
+            <circle cx="260" r="70"/><circle cx="260" r="26"/><path d="M70 0H190"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(500,40)">
+          <g class="eq">
+            <path d="M0 0H230M0 40H230M20 0V40M210 0V40"/>
+            <circle cx="-30" cy="20" r="30"/><circle cx="260" cy="20" r="30"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(1000,320) rotate(20)">
+          <g class="eq"><path d="M-70 0H70M-50 -26V26M50 -26V26M-70 -14V14M70 -14V14"/></g>
+        </g>
+        <g class="float" transform="translate(60,320) rotate(-10)">
+          <g class="eq">
+            <path d="M0 0l140 -20 40 90h-160zM60 70v60M120 70v60M20 130h140"/><path d="M-10 20h-20"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(980,660) rotate(-14)">
+          <g class="eq">
+            <path d="M-30 -10a42 42 0 1 1 60 0"/>
+            <path d="M-70 40a70 70 0 1 1 140 0 20 20 0 0 1-20 20h-100a20 20 0 0 1-20-20z"/>
+          </g>
+        </g>
+        <g class="float" transform="translate(420,700) rotate(6)">
+          <g class="eq a">
+            <rect x="0" y="0" width="240" height="26" rx="13"/>
+            <circle cx="-10" cy="13" r="36"/><circle cx="250" cy="13" r="36"/>
+          </g>
+        </g>
+      </svg>
+      <div class="shade"></div>
+    </div>
+
+    <!-- Dumbbell Logo Animation -->
+    <div class="logo">
+      <svg viewBox="0 60 1000 180" role="img" aria-label="GymGo logo">
+        <defs>
+          <clipPath id="win"><rect x="200" y="80" width="600" height="140"/></clipPath>
+          <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="6" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <!-- Barbell shaft -->
+        <rect class="bar" x="196" y="144" width="608" height="12" rx="6" fill="#d9dde4"/>
+        <!-- Left Plate -> Morphing G -->
+        <g class="plate-l">
+          <circle class="disc" cx="150" cy="150" r="56" fill="#1d232d" stroke="#3a4352" stroke-width="3"/>
+          <g class="spokes" stroke="#3a4352" stroke-width="4"><path d="M150 100V200M100 150H200"/></g>
+          <circle class="ringG" cx="150" cy="150" r="45" fill="none" stroke="#c6ff3d" stroke-width="18" filter="url(#glow)"/>
+          <path class="gshape" d="M181.8 118.2 A45 45 0 1 0 195 150 H146" fill="none" stroke="#c6ff3d" stroke-width="18" stroke-linejoin="miter" stroke-linecap="butt" filter="url(#glow)"/>
+        </g>
+        <!-- Right Plate -> Morphing O -->
+        <g class="plate-r">
+          <circle class="disc" cx="850" cy="150" r="56" fill="#1d232d" stroke="#3a4352" stroke-width="3"/>
+          <g class="spokes" stroke="#3a4352" stroke-width="4"><path d="M850 100V200M800 150H900"/></g>
+          <circle cx="850" cy="150" r="45" fill="none" stroke="#c6ff3d" stroke-width="18" filter="url(#glow)"/>
+        </g>
+        <rect class="flash" x="200" y="90" width="600" height="120" fill="#c6ff3d" opacity="0"/>
+        <!-- Middle Text -->
+        <g clip-path="url(#win)">
+          <text class="txt" x="500" y="204" text-anchor="middle" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#fff" font-family="'Orbitron','Arial Black',Impact,sans-serif" font-weight="900" font-size="150">YMG</text>
+        </g>
+        <text class="tag" x="500" y="236" text-anchor="middle" fill="#9aa3b2" font-family="'Inter',sans-serif" font-size="18" letter-spacing="8">YOUR GYM. ANYWHERE.</text>
+      </svg>
+    </div>
+
+    <!-- Upgraded Login & Register Card -->
+    <div class="card auth-card" id="card">
+      <div class="auth-header">
+        <div class="auth-badge">
+          <span class="badge-dot"></span>
+          <span>GYMGO SECURE ACCESS</span>
+        </div>
+        <h2 id="auth-title">WELCOME BACK</h2>
+        <p class="sub" id="auth-sub">Log in to sync your passes, workouts &amp; AI coach.</p>
+      </div>
+
+      <!-- Segmented Tab Navigation -->
+      <div class="auth-tabs" role="tablist">
+        <button type="button" class="auth-tab on" id="tab-login" role="tab" aria-selected="true" aria-controls="auth-login-pane">
+          <svg class="tab-icon" viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/></svg>
+          Log In
+        </button>
+        <button type="button" class="auth-tab" id="tab-register" role="tab" aria-selected="false" aria-controls="auth-register-pane">
+          <svg class="tab-icon" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+          Sign Up
+        </button>
+      </div>
+
+      <!-- Unified Alert Banner -->
+      <div id="auth-alert" class="auth-alert" role="alert" style="display:none">
+        <span class="alert-icon"></span>
+        <span class="alert-text"></span>
+      </div>
+
+      <!-- 1. LOG IN PANE -->
+      <form class="auth-pane" id="auth-login-pane" onsubmit="return false;" novalidate>
+        <div class="input-group">
+          <label for="u">Username or Email</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+            <input id="u" type="text" placeholder="e.g. athlete or user@gymgo.fit" autocomplete="username" value="athlete" required>
+          </div>
+        </div>
+        
+        <div class="input-group">
+          <div class="label-row">
+            <label for="p">Password</label>
+            <button type="button" class="link-btn" id="btn-forgot-pw">Forgot password?</button>
+          </div>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <input id="p" type="password" placeholder="Enter password" autocomplete="current-password" value="123456" required>
+            <button type="button" class="pwd-toggle" id="pwd-toggle-login" aria-label="Toggle password visibility">
+              <svg class="eye-icon eye-show" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-icon eye-hide" viewBox="0 0 24 24" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="auth-options-row">
+          <label class="custom-checkbox">
+            <input type="checkbox" id="remember-me" checked>
+            <span class="checkmark"></span>
+            <span class="checkbox-label">Keep me logged in</span>
+          </label>
+        </div>
+        
+        <button type="submit" class="main auth-submit" id="go">
+          <span class="btn-text">LOG IN</span>
+          <span class="btn-spinner" style="display:none"></span>
+        </button>
+        
+        <div class="demo-section">
+          <div class="demo-header">
+            <span class="demo-line"></span>
+            <span class="demo-label">ONE-CLICK DEMO ACCESS</span>
+            <span class="demo-line"></span>
+          </div>
+          <div class="demo-accounts">
+            <button type="button" class="demo-btn" id="demo-athlete">
+              <div class="demo-avatar ath">⚡</div>
+              <div class="demo-info">
+                <b>Athlete Demo</b>
+                <small>Alex Turner • Vijayawada</small>
+              </div>
+            </button>
+            <button type="button" class="demo-btn" id="demo-owner">
+              <div class="demo-avatar own">🏢</div>
+              <div class="demo-info">
+                <b>Gym Owner Demo</b>
+                <small>Vikram Rao • Starts Gym</small>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="auth-switch-prompt">
+          <span>New to GymGo?</span>
+          <button type="button" class="link-btn-accent" id="link-goto-register">Create free account →</button>
+        </div>
+      </form>
+
+      <!-- 2. REGISTER / SIGN UP PANE -->
+      <form class="auth-pane" id="auth-register-pane" onsubmit="return false;" novalidate style="display:none">
+        <!-- Account Role Selection -->
+        <div class="role-selector-wrap">
+          <label class="field-label">Choose Account Type</label>
+          <div class="role-cards">
+            <button type="button" class="role-card on" id="role-btn-athlete" data-role="athlete">
+              <div class="role-badge">ATHLETE</div>
+              <div class="role-icon-box">⚡</div>
+              <div class="role-meta">
+                <b>Athlete / Explorer</b>
+                <small>Passes, workouts, AI coach</small>
+              </div>
+            </button>
+            <button type="button" class="role-card" id="role-btn-owner" data-role="owner">
+              <div class="role-icon-box">🏢</div>
+              <div class="role-meta">
+                <b>Gym Owner</b>
+                <small>List club, verify QR passes</small>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="input-grid">
+          <div class="input-group">
+            <label for="reg-name">Full Name</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+              <input id="reg-name" type="text" placeholder="e.g. Jordan Hayes" autocomplete="name" required>
+            </div>
+          </div>
+          
+          <div class="input-group">
+            <label for="reg-u">Username</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/></svg>
+              <input id="reg-u" type="text" placeholder="e.g. jordanh" autocomplete="username" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="reg-email">Email Address</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <input id="reg-email" type="email" placeholder="jordan@example.com" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="reg-p">Password</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <input id="reg-p" type="password" placeholder="Create password (min 6 chars)" autocomplete="new-password" required>
+            <button type="button" class="pwd-toggle" id="pwd-toggle-reg" aria-label="Toggle password visibility">
+              <svg class="eye-icon eye-show" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-icon eye-hide" viewBox="0 0 24 24" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+          <!-- Dynamic Password Strength Indicator -->
+          <div class="pwd-meter-box" id="pwd-meter-box">
+            <div class="pwd-meter-bars">
+              <div class="meter-bar" id="pwd-bar-1"></div>
+              <div class="meter-bar" id="pwd-bar-2"></div>
+              <div class="meter-bar" id="pwd-bar-3"></div>
+              <div class="meter-bar" id="pwd-bar-4"></div>
+            </div>
+            <div class="meter-caption">
+              <span id="pwd-strength-label">Password strength:</span>
+              <span id="pwd-strength-val">None</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="reg-city">Primary City</label>
+          <div class="input-wrap select-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <select id="reg-city" class="custom-select">
+              <option value="Vijayawada" selected>Vijayawada (Andhra Pradesh)</option>
+              <option value="Hyderabad">Hyderabad (Telangana)</option>
+              <option value="Bengaluru">Bengaluru (Karnataka)</option>
+              <option value="Guntur">Guntur (Andhra Pradesh)</option>
+              <option value="Visakhapatnam">Visakhapatnam (Andhra Pradesh)</option>
+              <option value="Chennai">Chennai (Tamil Nadu)</option>
+              <option value="Mumbai">Mumbai (Maharashtra)</option>
+              <option value="Delhi">Delhi (NCR)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Gym Owner Specific Fields (Shown when Gym Owner selected) -->
+        <div class="owner-extra-fields" id="owner-extra-fields" style="display:none">
+          <div class="owner-banner">
+            <span>🏢 Gym Facility Details</span>
+            <small>This registers your facility into GymGo's Travel Gym network</small>
+          </div>
+          <div class="input-group">
+            <label for="reg-gym-name">Gym / Facility Name</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="6" x2="9" y2="6"/><line x1="15" y1="6" x2="15" y2="6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="9" y2="14"/><line x1="15" y1="14" x2="15" y2="14"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+              <input id="reg-gym-name" type="text" placeholder="e.g. Apex Power Gym">
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="reg-gym-area">Area / Neighborhood</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <input id="reg-gym-area" type="text" placeholder="e.g. Tadepalli / Madhapur">
+            </div>
+          </div>
+        </div>
+
+        <div class="auth-options-row">
+          <label class="custom-checkbox">
+            <input type="checkbox" id="reg-terms" checked required>
+            <span class="checkmark"></span>
+            <span class="checkbox-label">I agree to the <a href="#" class="inline-link" onclick="return false;">GymGo Terms</a> &amp; <a href="#" class="inline-link" onclick="return false;">Privacy Policy</a></span>
+          </label>
+        </div>
+
+        <button type="submit" class="main auth-submit" id="btn-register">
+          <span class="btn-text">CREATE GYMGO ACCOUNT</span>
+          <span class="btn-spinner" style="display:none"></span>
+        </button>
+
+        <div class="auth-switch-prompt">
+          <span>Already registered?</span>
+          <button type="button" class="link-btn-accent" id="link-goto-login">Log into your account →</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Password Recovery Modal Dialog -->
+    <div class="auth-modal-backdrop" id="forgot-modal" style="display:none">
+      <div class="auth-modal-card">
+        <button type="button" class="modal-close-btn" id="btn-close-forgot" aria-label="Close dialog">✕</button>
+        <div class="modal-badge-icon">🔑</div>
+        <h3>RECOVER ACCOUNT</h3>
+        <p class="modal-desc">Enter your registered username or email to reset your credentials.</p>
+
+        <div id="forgot-alert" class="auth-alert" style="display:none">
+          <span class="alert-icon"></span>
+          <span class="alert-text"></span>
+        </div>
+
+        <!-- Step 1: Request Code -->
+        <div id="forgot-step-1">
+          <div class="input-group">
+            <label for="forgot-identity">Username or Email</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+              <input id="forgot-identity" type="text" placeholder="e.g. athlete or user@gymgo.fit" value="athlete">
+            </div>
+          </div>
+          <button type="button" class="main auth-submit" id="btn-send-reset-code">
+            <span class="btn-text">SEND RECOVERY CODE</span>
+            <span class="btn-spinner" style="display:none"></span>
+          </button>
+        </div>
+
+        <!-- Step 2: Enter Code & New Password -->
+        <div id="forgot-step-2" style="display:none">
+          <div class="input-group">
+            <label for="reset-code">Verification Code</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <input id="reset-code" type="text" placeholder="Enter 4-digit code (e.g. 7789)" value="7789">
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="reset-new-password">New Password</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <input id="reset-new-password" type="password" placeholder="Enter new password (min 4 chars)">
+            </div>
+          </div>
+          <button type="button" class="main auth-submit" id="btn-submit-new-password">
+            <span class="btn-text">SAVE NEW PASSWORD &amp; LOG IN</span>
+            <span class="btn-spinner" style="display:none"></span>
+          </button>
+        </div>
+
+        <div class="modal-foot">
+          <button type="button" class="link-btn-accent" id="btn-back-to-login">← Return to Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SVG Icon Sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-ai" viewBox="0 0 24 24"><path d="M11 3l1.8 5.2L18 10l-5.2 1.8L11 17l-1.8-5.2L4 10l5.2-1.8z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/></symbol>
+      <symbol id="i-dumb" viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/></symbol>
+      <symbol id="i-pass" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="11" r="3.5"/><path d="M9 17h6"/></symbol>
+      <symbol id="i-gram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8"/></symbol>
+      <symbol id="i-qr" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><path d="M14 14h2v2h-2zM18 14h2v6h-4M14 18h2"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.5-4.5"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- 1. HOME DASHBOARD SCENE -->
+  <div id="home">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="top a" style="--d:.1s">
+        <div class="who">
+          <div class="av" id="av">A</div>
+          <div><small>Welcome back</small><b id="who">Athlete</b></div>
+        </div>
+        <div class="streak">🔥 <b id="streak">0</b><span>day streak</span></div>
+      </div>
+
+      <div class="a" style="--d:.3s">
+        <div class="search" data-go="Travel Gym">
+          <svg class="ic"><use href="#i-search"/></svg>
+          <span class="type">Where are you training next?</span>
+        </div>
+      </div>
+
+      <div class="hero a" style="--d:.7s" data-go="Travel Gym">
+        <div class="hero-top">
+          <span class="pill">TRAVEL MODE</span>
+          <span class="mt"><b id="match">0</b>% match</span>
+        </div>
+        <h3>Heading somewhere?<br>Find your gym there.</h3>
+        <div class="chips"><span>📍 Destination</span><span>📅 Dates</span><span>₹ Budget</span></div>
+        <div class="cta">Find a gym →</div>
+      </div>
+
+      <div class="sec a" style="--d:.95s">QUICK ACTIONS</div>
+      <div class="grid">
+        <div class="tile hl a" style="--d:1.05s" data-go="Travel Gym">
+          <div class="ib"><svg class="ic"><use href="#i-pin"/></svg></div>
+          <b>Travel Gym</b><small>Temporary pass in any city</small>
+        </div>
+        <div class="tile a" style="--d:1.15s" data-go="AI Coach">
+          <div class="ib"><svg class="ic"><use href="#i-ai"/></svg></div>
+          <b>AI Coach</b><small>Workout &amp; diet plan</small>
+        </div>
+        <div class="tile a" style="--d:1.25s" data-go="Workout Session">
+          <div class="ib"><svg class="ic"><use href="#i-dumb"/></svg></div>
+          <b>Workout Session</b><small>Split training &amp; rest timer</small>
+        </div>
+        <div class="tile a" style="--d:1.35s" data-go="Gym Passport">
+          <div class="ib"><svg class="ic"><use href="#i-pass"/></svg></div>
+          <b>Gym Passport</b><small>Collect city check-in stamps</small>
+        </div>
+        <div class="tile a" style="--d:1.45s" data-go="GymGram">
+          <div class="ib"><svg class="ic"><use href="#i-gram"/></svg></div>
+          <b>GymGram</b><small>Share PRs &amp; community feed</small>
+        </div>
+        <div class="tile a" style="--d:1.55s" data-go="My Passes">
+          <div class="ib"><svg class="ic"><use href="#i-qr"/></svg></div>
+          <b>My Passes</b><small>Active QR passes &amp; check-in</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="nav">
+      <div class="on" data-scene="home"><svg class="ic"><use href="#i-home"/></svg>Home</div>
+      <div data-scene="travel"><svg class="ic"><use href="#i-search"/></svg>Travel</div>
+      <div data-scene="gymgram"><svg class="ic"><use href="#i-gram"/></svg>GymGram</div>
+      <div data-scene="coach"><svg class="ic"><use href="#i-ai"/></svg>AI Coach</div>
+      <div data-scene="passport"><svg class="ic"><use href="#i-pass"/></svg>Passport</div>
+      <div data-scene="profile"><svg class="ic"><use href="#i-user"/></svg>Profile</div>
+    </div>
+  </div>
+
+  <!-- 2. TRAVEL GYM SCENE -->
+  <div id="travel" class="scroll-view">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="back" aria-label="Back">←</button>
+        <div><b>Travel Gym</b><small>Temporary gym access, anywhere</small></div>
+      </div>
+      <div class="a" style="--d:.2s">
+        <div class="lbl">1 · CITY</div>
+        <div class="cityf">
+          <svg class="ic"><use href="#i-pin"/></svg>
+          <input id="city" type="text" placeholder="Type city: Vijayawada, Hyderabad, Bengaluru..." autocomplete="off">
+        </div>
+        <div id="sug"></div>
+        <div class="pop">
+          Popular: <span data-c="Vijayawada">Vijayawada</span><span data-c="Hyderabad">Hyderabad</span><span data-c="Guntur">Guntur</span><span data-c="Bengaluru">Bengaluru</span>
+        </div>
+      </div>
+      <div id="areaBox" class="step">
+        <div class="lbl">2 · AREA IN <span id="cn"></span></div>
+        <div id="areas"></div>
+      </div>
+      <div id="res" class="step"></div>
+      <p class="note">Verified GymGo Partner Network with real-time pass issuance.</p>
+    </div>
+  </div>
+
+  <!-- 3. AI COACH SCENE -->
+  <div id="coach" class="scroll-view">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="cback" aria-label="Back">←</button>
+        <div><b>AI Coach</b><small>Biometric fitness &amp; nutrition plan</small></div>
+      </div>
+      <div id="cform" class="a" style="--d:.2s">
+        <div class="cf">
+          <label class="nf"><span>Age</span><input id="c-age" type="number" inputmode="numeric" placeholder="25" value="25"></label>
+          <div class="nf">
+            <span>Sex</span>
+            <div class="opts" style="margin-top:2px">
+              <span class="chip on" data-g="sex" data-v="Male">Male</span>
+              <span class="chip" data-g="sex" data-v="Female">Female</span>
+            </div>
+          </div>
+          <label class="nf"><span>Height (cm)</span><input id="c-h" type="number" inputmode="decimal" placeholder="175" value="175"></label>
+          <label class="nf"><span>Weight (kg)</span><input id="c-w" type="number" inputmode="decimal" placeholder="72" value="72"></label>
+        </div>
+
+        <div class="fs">
+          <div class="lbl">PRIMARY GOAL</div>
+          <div class="opts">
+            <span class="chip" data-g="goal" data-v="fat">Lose Fat</span>
+            <span class="chip on" data-g="goal" data-v="muscle">Build Muscle</span>
+            <span class="chip" data-g="goal" data-v="fit">Stay Fit &amp; Athletic</span>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="lbl">TRAINING APPROACH</div>
+          <div class="ap">
+            <div class="opt" data-g="ap" data-v="reg">
+              <b>Regular Fitness</b><small>Stay active, healthy, and energized</small>
+            </div>
+            <div class="opt on" data-g="ap" data-v="bb">
+              <b>Bodybuilding</b><small>Muscle size, split training, high protein</small>
+            </div>
+            <div class="opt" data-g="ap" data-v="comp">
+              <b>Competition Prep</b><small>Strict contest macros, posing &amp; conditioning</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="lbl">MEDICAL CONSIDERATIONS</div>
+          <div class="opts" id="med"></div>
+          <input class="tx" id="c-note" type="text" placeholder="Additional health notes or goals (optional)" style="margin-top:6px">
+        </div>
+
+        <div class="fs">
+          <div class="lbl">FOOD PREFERENCE</div>
+          <div class="opts">
+            <span class="chip" data-g="diet" data-v="veg">Vegetarian</span>
+            <span class="chip" data-g="diet" data-v="egg">Eggetarian</span>
+            <span class="chip on" data-g="diet" data-v="non">Non-Veg</span>
+          </div>
+        </div>
+
+        <button class="cta2" id="cgo" style="margin-top:24px">BUILD PERSONALIZED PLAN</button>
+      </div>
+
+      <div class="think" id="think">
+        <div class="sp"></div>
+        <p id="thinkt">Analyzing biometrics...</p>
+      </div>
+      <div id="cres"></div>
+    </div>
+  </div>
+
+  <!-- 4. WORKOUT SESSIONS SCENE -->
+  <div id="wo" class="scroll-view">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="woback" aria-label="Back">←</button>
+        <div><b>Workout Sessions</b><small>Split routines, rest timer &amp; tracking</small></div>
+      </div>
+      <div id="wohead"></div>
+      <div id="woday"></div>
+      <div id="wnotes"></div>
+      <input type="file" id="pf" accept="image/*" hidden>
+    </div>
+  </div>
+
+  <!-- 5. GYM PASSPORT SCENE (NEW) -->
+  <div id="passport" class="scroll-view">
+    <div class="glow gold"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="pass-back" aria-label="Back">←</button>
+        <div><b>Gym Passport</b><small>Digital stamps &amp; travel achievements</small></div>
+      </div>
+      <div id="passport-stats"></div>
+      <div id="passport-badges"></div>
+      <div id="passport-stamps"></div>
+      <button class="cta2" id="btn-passport-checkin" style="margin-top:24px;">+ CHECK IN AT CURRENT GYM</button>
+    </div>
+  </div>
+
+  <!-- 6. GYMGRAM COMMUNITY FEED (NEW) -->
+  <div id="gymgram" class="scroll-view">
+    <div class="glow blue"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="gram-back" aria-label="Back">←</button>
+        <div><b>GymGram</b><small>PR alerts, athlete community &amp; milestones</small></div>
+      </div>
+      <button class="cta2" id="btn-new-post" style="margin-bottom:18px;">+ SHARE A WORKOUT PR</button>
+      <div id="gram-feed"></div>
+    </div>
+  </div>
+
+  <!-- 7. MY PASSES QR WALLET (NEW) -->
+  <div id="passes" class="scroll-view">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="passes-back" aria-label="Back">←</button>
+        <div><b>My Passes Wallet</b><small>Active gym passes &amp; QR verification</small></div>
+      </div>
+      <div id="passes-wallet"></div>
+    </div>
+  </div>
+
+  <!-- 8. ATHLETE / OWNER PROFILE (NEW) -->
+  <div id="profile" class="scroll-view">
+    <div class="glow"></div>
+    <div class="wrap">
+      <div class="th a" style="--d:.05s">
+        <button class="back" id="prof-back" aria-label="Back">←</button>
+        <div><b>My Profile</b><small>Athlete statistics, benchmarks &amp; role</small></div>
+      </div>
+      <div id="profile-box"></div>
+    </div>
+  </div>
+
+  <!-- 9. GYM OWNER PORTAL (DEMO & LIVE) -->
+  <div id="owner"></div>
+
+  <!-- Floating Active Booking Pill -->
+  <div id="reqpill"></div>
+
+  <!-- Global Modal Sheet & Overlay -->
+  <div class="dim" id="dim"></div>
+  <div class="sheet" id="sheet"></div>
+
+  <!-- Global Toast Notification -->
+  <div id="toast"></div>
+
+  <!-- Scripts -->
+  <script src="js/api.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

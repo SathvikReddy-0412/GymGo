@@ -1,0 +1,30 @@
+{
+  "_comment": "GymGo API Keys and Service Credentials Template. Rename to api_keys.json and populate with your live credentials.",
+  "server": {
+    "port": 3000,
+    "env": "development",
+    "jwtSecret": "your_jwt_secret_here"
+  },
+  "payment": {
+    "provider": "razorpay",
+    "razorpayKeyId": "rzp_test_your_key_id",
+    "razorpayKeySecret": "your_rzp_secret_key",
+    "upiMerchantVpa": "merchant@upi",
+    "currency": "INR"
+  },
+  "aiCoach": {
+    "provider": "gemini",
+    "geminiApiKey": "your_gemini_or_llm_api_key",
+    "model": "gemini-1.5-flash",
+    "temperature": 0.7
+  },
+  "maps": {
+    "provider": "google_maps",
+    "googleMapsApiKey": "your_google_maps_api_key",
+    "defaultCity": "Vijayawada"
+  },
+  "security": {
+    "qrPassSalt": "your_secure_qr_salt",
+    "tokenExpiryDays": 30
+  }
+}
