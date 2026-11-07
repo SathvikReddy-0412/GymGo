@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "node backend/server.js",
+    "build": "node -e \"const fs=require('fs'); if(!fs.existsSync('dist')){fs.mkdirSync('dist',{recursive:true});} fs.cpSync('frontend','dist',{recursive:true}); console.log('Build complete: dist ready');\"",
+    "postinstall": "node -e \"const fs=require('fs'); if(!fs.existsSync('dist')){fs.mkdirSync('dist',{recursive:true});} fs.cpSync('frontend','dist',{recursive:true});\"",
     "test": "node tests/integration_test.js"
   },
   "keywords": [

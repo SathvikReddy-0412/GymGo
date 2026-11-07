@@ -5,6 +5,7 @@ try {
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const { db } = require('./db');
 const config = require('../api_keys/keys');
 
@@ -15,8 +16,11 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Serve frontend static assets from frontend directory
-app.use(express.static(path.join(__dirname, '..', 'frontend')));
+// Serve frontend static assets from frontend directory (or dist fallback)
+const staticDir = fs.existsSync(path.join(__dirname, '..', 'frontend'))
+  ? path.join(__dirname, '..', 'frontend')
+  : path.join(__dirname, '..', 'dist');
+app.use(express.static(staticDir));
 
 // Health check endpoints for Render zero-downtime deployment & monitoring
 const healthHandler = (req, res) => {
@@ -852,7 +856,10 @@ app.use('/api', (req, res) => {
 
 // Fallback to index.html for Single Page App client-side routing
 app.use((req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
+  const indexPath = fs.existsSync(path.join(__dirname, '..', 'frontend', 'index.html'))
+    ? path.join(__dirname, '..', 'frontend', 'index.html')
+    : path.join(__dirname, '..', 'dist', 'index.html');
+  res.sendFile(indexPath);
 });
 
 // Bind to 0.0.0.0 host for Render and container environments
